@@ -1,0 +1,82 @@
+\documentclass[mathserif]{beamer}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bce}{\begin{center}}
+\newcommand{\ece}{\end{center}}
+\newcommand{\dpa}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\ndp}[3]{\frac{\partial^#3 #1}{\partial #2 ^#3}}
+\newcommand{\cdpa}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{animate}
+\usepackage{eulervm}
+\apptocmd{\frame}{}{\justifying}{}
+\usepackage[activeacute,spanish]{babel}
+\setbeamertemplate{navigation symbols}{}
+\usetheme{default}
+\setbeamertemplate{footline}[frame number]
+\usecolortheme[named=purple]{structure}
+\setbeamercolor{alerted text}{fg=blue}
+\title{Acoplamiento Meso-Microescala Utilizando WRF-LES Para la Simulación Numérica de Viento Sobre Terreno Complejo de Alta Resolución}
+\author{P.~Cárdenas, A.~Flores}
+\institute[Universidad Técnica Federico Santa María]
+{%
+  Departamento de Ing. Mecánica\\
+  Universidad Técnica Federico Santa María}
+\date{Jornadas de Mecánica Computacional, 2017}
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Contenidos}
+\begin{itemize}
+	\item Objetivos
+	\item Motivación
+	\item Metodología
+	\item Marco Teórico
+	\item Caso de Estudio
+	\item Resultados
+	\item Conclusiones y Trabajo Futuro
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Objetivos}
+\end{frame}
+
+\begin{frame}{Motivación}
+\end{frame}
+  
+\begin{frame}{Metodología}
+\end{frame}
+
+\begin{frame}{Marco Teórico}
+\end{frame}
+
+\begin{frame}{Caso de Estudio}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{center}
+\animategraphics[loop,controls,width=0.8\linewidth]{12}{ani/pert2/pert2-}{0}{101}
+\end{center}
+\end{frame}
+
+\begin{frame}{Conclusiones y Trabajo Futuro}
+\begin{itemize}
+  \item  concl1
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\end{document} 
