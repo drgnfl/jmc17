@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{1. Objetivos}{3}{0}{1}
+\beamer@sectionintoc {2}{2. Motivaci\IeC {\'o}n}{4}{0}{2}
+\beamer@sectionintoc {3}{3. Metodolog\IeC {\'\i }a}{6}{0}{3}
+\beamer@sectionintoc {4}{4. Caso de Estudio}{14}{0}{4}
+\beamer@sectionintoc {5}{5. Resultados}{23}{0}{5}
+\beamer@sectionintoc {6}{4. Conclusiones y Trabajo Futuro}{28}{0}{6}
